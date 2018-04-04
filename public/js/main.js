@@ -20,7 +20,8 @@ function setupPageScroll() {
     });
 }
 
-// Will make sure our function is only run after the page loads
-(function ($) {
+
+// Will run when the page loads
+$(() => {
     setupPageScroll();
-})(jQuery);
+});
