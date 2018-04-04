@@ -42,6 +42,7 @@ README.md                     -- This handy instruction file!
 7. Link the Javascript
 8. Find a widget on [Trading View](https://www.tradingview.com/widget/) and integrate it.
 12. ? Add Firebase Hosting ? More advanced  
+    --> Create a project on [console.firebase.google.com](https://console.firebase.google.com)
     --> Use `node` and `npm`  
     --> run `npm install -g firebase-tools`  
     --> then run `firebase init` from a command line in the
