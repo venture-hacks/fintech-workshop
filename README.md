@@ -13,16 +13,20 @@ widgets are styled. It's easy to jumble together too many widgets, each with the
 
 
 ## Advanced
-You'll need Node and NPM installed on your computer.
+You'll need Node and NPM installed on your computer and some basic command line knowledge.
 
-We're going to build our own widgets using Web Components.
+We're going to build our own widgets using Web Components, specifically with the [Polymer Library](https://www.polymer-project.org/2.0/start/quick-tour).
 
-
-Run:
+Run in the project directory:
 ```
 npm install --global polyserve
-polyserve public
+polyserve public # or npm run start
 ```
 
 Then navigate to `http://127.0.0.1:8081/` in your browser of choice. All changes should be visible here when you save
 your code and refresh the browser.
+
+
+## Resources
+* Great Free API's for data! https://github.com/toddmotto/public-apis
+* Use widgets within your widgets! https://www.webcomponents.org/
