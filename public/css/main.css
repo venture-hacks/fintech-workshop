@@ -32,13 +32,17 @@ header .value-prop-heading {
 .crypto {
     padding: 20px 0;
     margin: 0;
-    height: 400px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center; /* center horizontally in column */
 }
 
 .crypto .widget-container {
     width: 80%;
+}
+
+.crypto .widget-container.tradingview {
+    height: 400px; /* Widget fills up this entire space */
 }
 
 

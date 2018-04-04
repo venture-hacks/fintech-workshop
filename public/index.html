@@ -32,6 +32,9 @@
     <!-- Where we'll be adding out all styles -->
     <link href="css/main.css" rel="stylesheet">
 
+    <!-- Our Custom Widgets -->
+    <script src="https://polygit.org/components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="widgets/vh-bitcoin-prices.html">
 </head>
 
 <body id="page-top" class="index">
@@ -103,7 +106,7 @@
 
 
 <section class="crypto main-section">
-    <article class="widget-container">
+    <article class="widget-container tradingview">
         <!-- TradingView Widget BEGIN -->
         <div class="tradingview-widget-container">
             <div class="tradingview-widget-container__widget"></div>
@@ -120,6 +123,11 @@
             </script>
         </div>
         <!-- TradingView Widget END -->
+    </article>
+
+    <article class="widget-container">
+        <!-- Insert our custom widget element -->
+        <vh-bitcoin-prices></vh-bitcoin-prices>
     </article>
 </section>
 
@@ -144,7 +152,7 @@
 
 <!-- HERE IS WHERE WE LINK IN ALL THE JAVASCRIPT -->
 
-<!-- jQuery, a helpful library -->
+<!-- jQuery, a helpful library and used in bootstrap -->
 <script src="vendor/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
