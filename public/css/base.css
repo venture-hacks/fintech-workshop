@@ -7,6 +7,14 @@
 /* Some 'global' styles for the basic tags that make up an html page.
     Here is where we decide our default styles before getting more specific.
 */
+/* Our theme colors using CSS variables */
+:root {
+    --theme-primary: #F44336;
+    --theme-secondary: #E53935;
+    --theme-gray: #777777;
+    --theme-dark-gray: #222222;
+    --theme-white: white;
+}
 
 body {
     overflow-x: hidden;
@@ -14,11 +22,11 @@ body {
 }
 
 .text-muted {
-    color: #777777;
+    color: var(--theme-gray);
 }
 
 .text-primary {
-    color: #F44336;
+    color: var(--theme-primary);
 }
 
 p {
@@ -35,14 +43,14 @@ a.active {
 }
 
 a {
-    color: #F44336;
+    color: var(--theme-primary);
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #E53935;
+    color: var(--theme-secondary);
 }
 
 h1,
@@ -72,8 +80,8 @@ These are some of the Bootstrap classes that help us build quickly,
 
 .btn-primary {
     color: white;
-    background-color: #F44336;
-    border-color: #F44336;
+    background-color: var(--theme-primary);
+    border-color: var(--theme-primary);
     font-family: 'Droid Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -84,15 +92,15 @@ These are some of the Bootstrap classes that help us build quickly,
 .btn-primary:active,
 .btn-primary.active {
     color: white;
-    background-color: #E53935;
-    border-color: #E53935;
+    background-color: var(--theme-secondary);
+    border-color: var(--theme-secondary);
 }
 
 /* What we will use for our signin button */
 .btn-xl {
     color: white;
-    background-color: #F44336;
-    border-color: #F44336;
+    background-color: var(--theme-primary);
+    border-color: var(--theme-primary);
     font-family: 'Droid Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -105,18 +113,18 @@ These are some of the Bootstrap classes that help us build quickly,
 .btn-xl:focus,
 .btn-xl:active,
 .btn-xl.active {
-    color: white;
-    background-color: #E53935;
-    border-color: #E53935;
+    color: var(--theme-white);
+    background-color: var(--theme-secondary);
+    border-color: var(--theme-secondary);
 }
 
 .navbar-custom {
-    background-color: #222222;
+    background-color: var(--theme-dark-gray);
     border-color: transparent;
     height: 100px;
 }
 .navbar-custom .navbar-brand {
-    color: #F44336;
+    color: var(--theme-primary);
     font-family: 'Alegreya Sans SC', "Helvetica Neue", Helvetica, Arial, cursive;
     font-weight: bold;
 }
@@ -124,7 +132,7 @@ These are some of the Bootstrap classes that help us build quickly,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-    color: #F44336;
+    color: var(--theme-primary);
 }
 
 
@@ -195,7 +203,7 @@ header:before {
 
 header {
     text-align: center;
-    color: white;
+    color: var(--theme-white);
 }
 
 header .intro-text {
@@ -275,12 +283,12 @@ section h3.section-subheading {
 footer {
     padding: 25px 0;
     text-align: center;
-    background: #222222;
+    background: var(--theme-dark-gray);
 }
 
 footer span.copyright {
     line-height: 40px;
-    color: white;
+    color: var(--theme-white);
     font-family: 'Droid Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -290,13 +298,13 @@ ul.social-buttons {
 
 ul.social-buttons li a {
     display: block;
-    background-color: white;
+    background-color: var(--theme-white);
     height: 40px;
     width: 40px;
     border-radius: 100%;
     font-size: 20px;
     line-height: 40px;
-    color: #222222;
+    color: var(--theme-dark-gray);
     outline: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -305,5 +313,5 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #F44336;
+    background-color: var(--theme-primary);
 }
