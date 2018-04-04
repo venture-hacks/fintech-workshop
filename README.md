@@ -64,7 +64,10 @@ Then navigate to [`127.0.0.1:8081/`](http://127.0.0.1:8081/) in your browser of 
 your code and refresh the browser.
 
 ### Advanced Steps
-1. 
+1. Download the Advanced Code from the Drive.
+1. Copy everything from the `widgets` folder into your project's `widgets` folder.
+1. Make it display nicer.
+1. Find better data, think of a useful widget for your team.
 
 ## Resources
 * Great Free API's for data! https://github.com/toddmotto/public-apis
