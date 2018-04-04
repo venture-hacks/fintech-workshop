@@ -19,7 +19,7 @@ public/  -- The Folder holding your website
     example-bitcoin-data.json -- Some example data
     css/                      -- Holds all our stylesheets
         main.css               -- Our homepage's main styles
-        base.css               -- Styles that we've overriden from Bootstrap for the sake of this workshop.
+        base.css               -- Styles that we've overriden from Bootstrap for the sake of this workshop and our theming.
     js/                       -- Holds all our javascript scripts
         main.js                -- Our homepage's main script
     img/                      -- Holds all image assets
