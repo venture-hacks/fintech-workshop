@@ -42,12 +42,12 @@ README.md                     -- This handy instruction file!
 6. Change the Value Proposition icons using Font Awesome `classes`
 7. Link the Javascript
 8. Find a widget on [Trading View](https://www.tradingview.com/widget/) and integrate it.
-12. ? Add Firebase Hosting ? More advanced
-    --> Create a project on [console.firebase.google.com](https://console.firebase.google.com)
-    --> Use `node` and `npm`
-    --> run `npm install -g firebase-tools`
-    --> then run `firebase init` from a command line in the **base of this directory**
-    --> then run `firebase deploy`
+12. ? Add Firebase Hosting ? More advanced and requires Node. (see below)  
+    --> Create a project on [console.firebase.google.com](https://console.firebase.google.com)  
+    --> Use `node` and `npm`  
+    --> run `npm install -g firebase-tools`  
+    --> then run `firebase init` from a command line in the **base of this directory**  
+    --> then run `firebase deploy`  
 
 ## Advanced
 You'll need [Node and NPM](https://nodejs.org) installed on your computer and [some basic command line knowledge](https://tutorial.djangogirls.org/en/intro_to_command_line/).
@@ -74,7 +74,7 @@ your code and refresh the browser.
 * Great Free API's for data! https://github.com/toddmotto/public-apis
 * Use widgets within your widgets! https://www.webcomponents.org/
 * [Start Bootstrap](https://startbootstrap.com/template-categories/all/) is great for templates in Bootstrap 4.
-
+* [IconMonstr](https://iconmonstr.com/) has great, free icons.
 
 ## Notes
 We're using Bootstrap 3. While Bootstrap 4 is out, we haven't had time to update this workshop for it. 🤷‍♀️🤷‍♂️
