@@ -67,12 +67,14 @@ your code and refresh the browser.
 1. Download the Advanced Code from the Drive.
 1. Copy everything from the `widgets` folder into your project's `widgets` folder.
 1. Modify your `index.html` to import our custom widget.
+1. Fix the 
 1. Make it display nicer.
 1. Find better data, think of a useful widget for your team.
 
 ## Resources
 * Great Free API's for data! https://github.com/toddmotto/public-apis
 * Use widgets within your widgets! https://www.webcomponents.org/
+* [Polymer CLI](https://www.npmjs.com/package/polymer-cli) is the standard way to build Polymer widgets.
 * [Start Bootstrap](https://startbootstrap.com/template-categories/all/) is great for templates in Bootstrap 4.
 * [IconMonstr](https://iconmonstr.com/) has great, free icons.
 
