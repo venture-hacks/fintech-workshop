@@ -78,4 +78,4 @@ your code and refresh the browser.
 
 
 ## Notes
-We're using Bootstrap 3. While Bootstrap 4 is out, we haven't had time to update this workshop for it. :shrug:
+We're using Bootstrap 3. While Bootstrap 4 is out, we haven't had time to update this workshop for it. 🤷‍♀️🤷‍♂️
