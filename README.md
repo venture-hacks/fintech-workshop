@@ -69,7 +69,7 @@ your code and refresh the browser.
 1. Download the Advanced Code from the Drive.
 1. Copy everything from the `widgets` folder into your project's `widgets` folder.
 1. Modify your `index.html` to import our custom widget.
-1. Fix the 
+1. Fix the date display by processing each loaded datapoint.
 1. Make it display nicer.
 1. Find better data, think of a useful widget for your team.
 
