@@ -37,7 +37,7 @@ README.md                     -- This handy instruction file!
 1. Download Step 1 Code from Drive
 2. Just open the `index.html`
 3. Link CSS file
-4. Change the Theme Colors using CSS: 
+4. Change the Theme Colors using CSS:  
     --> Pick a new color theme from here: https://material.io/color  
     --> `#F44336`  
     --> `#E53935`  
