@@ -3,6 +3,8 @@ https://github.com/venture-hacks/fintech-workshop
 
 See it live here: https://vh-fintech-workshop.firebaseapp.com  
 
+If you do not have a text editor for coding, please download something like: [VS Code](https://code.visualstudio.com/)
+
 We'll be building (ok, *modifying*) a stripped-down Bootstrap template.
 Since this is a hackathon, we are building demos that should show the essence of our idea in the simplest way possible.
 The tech doesn't have to be professional quality but it should help illustrate a larger idea.
