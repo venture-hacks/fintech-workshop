@@ -37,9 +37,10 @@ README.md                     -- This handy instruction file!
 1. Download Step 1 Code from Drive
 2. Just open the `index.html`
 3. Link CSS file
-4. Change the Theme Colors using CSS from:
-    --> `#fec503` to `#F44336`
-    --> `#f6bf01` to `#E53935`
+4. Change the Theme Colors using CSS: 
+    --> Pick a new color theme from here: https://material.io/color  
+    --> `#F44336`  
+    --> `#E53935`  
 5. Add another Value Proposition
 6. Change the Value Proposition icons using Font Awesome `classes`
 7. Link the Javascript
