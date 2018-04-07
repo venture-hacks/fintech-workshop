@@ -1,4 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
+### Firebase
+firebase-debug.log
+
 ### Node
 node_modules
 

@@ -1,5 +1,7 @@
 # Fintech Workshop 2018
-https://github.com/venture-hacks/fintech-workshop
+https://github.com/venture-hacks/fintech-workshop  
+
+See it live here: https://vh-fintech-workshop.firebaseapp.com  
 
 We'll be building (ok, *modifying*) a stripped-down Bootstrap template.
 Since this is a hackathon, we are building demos that should show the essence of our idea in the simplest way possible.
