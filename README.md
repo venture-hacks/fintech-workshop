@@ -43,7 +43,7 @@ README.md                     -- This handy instruction file!
     --> Change `--theme-secondary` to your new secondary color.  
 5. Add another Value Proposition
 6. Change the Value Proposition icons using Font Awesome `classes`
-7. Link the Javascript
+7. Link the Javascript and add a Click listener if you want.
 8. Find a widget on [Trading View](https://www.tradingview.com/widget/) and integrate it.
 12. ? Add Firebase Hosting ? Requires Node. (see below)  
     --> Create a project on [console.firebase.google.com](https://console.firebase.google.com)  
