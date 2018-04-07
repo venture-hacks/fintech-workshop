@@ -73,10 +73,6 @@
                 const response = await fetch("example-bitcoin-data.json"); // from https://exchange.bitcoin/api/trades?since=5
                 const data = await response.json();
                 // Clean + format the data
-                data.forEach((datum) => {
-                    // stored in UNIX timestamps
-                    datum.date = new Date(datum.date * 1000).toDateString();
-                });
                 // Update the data and it will be pushed to our template
                 this.bitcoinPrices = data;
             }
