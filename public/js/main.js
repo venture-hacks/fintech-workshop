@@ -26,7 +26,7 @@ function setupLogin() {
     var userIcon = $('#user-icon');
     
     loginButton.bind('click', function (event) {
-        userIcon.src('YOUR IMAGE LINK');
+        userIcon.attr('src', 'https://lh3.googleusercontent.com/-uaINHx2ldrc/AAAAAAAAAAI/AAAAAAAAAAA/ACLGyWBTPtjfQOWmhSsV3J1NtUcS4k0yrw/s96-c-mo/photo.jpg');
         loginButton.text('Welcome!');
         event.preventDefault();
     })
