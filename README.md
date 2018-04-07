@@ -1,4 +1,5 @@
 # Fintech Workshop 2018
+https://github.com/venture-hacks/fintech-workshop
 
 We'll be building (ok, *modifying*) a stripped-down Bootstrap template.
 Since this is a hackathon, we are building demos that should show the essence of our idea in the simplest way possible.
@@ -32,22 +33,22 @@ README.md                     -- This handy instruction file!
 ```
 ## Steps
 1. Download Step 1 Code from Drive
-2. Just open the `index.html`  
+2. Just open the `index.html`
 3. Link CSS file
-4. Change the Theme Colors using CSS from:  
-    --> `#fec503` to `#F44336`  
-    --> `#f6bf01` to `#E53935`  
+4. Change the Theme Colors using CSS from:
+    --> `#fec503` to `#F44336`
+    --> `#f6bf01` to `#E53935`
 5. Add another Value Proposition
 6. Change the Value Proposition icons using Font Awesome `classes`
 7. Link the Javascript
 8. Find a widget on [Trading View](https://www.tradingview.com/widget/) and integrate it.
-12. ? Add Firebase Hosting ? More advanced  
-    --> Create a project on [console.firebase.google.com](https://console.firebase.google.com)  
-    --> Use `node` and `npm`  
-    --> run `npm install -g firebase-tools`  
+12. ? Add Firebase Hosting ? More advanced
+    --> Create a project on [console.firebase.google.com](https://console.firebase.google.com)
+    --> Use `node` and `npm`
+    --> run `npm install -g firebase-tools`
     --> then run `firebase init` from a command line in the
-     **base of this directory**  
-    --> then run `firebase deploy`  
+     **base of this directory**
+    --> then run `firebase deploy`
 
 ## Advanced
 You'll need [Node and NPM](https://nodejs.org) installed on your computer and [some basic command line knowledge](https://tutorial.djangogirls.org/en/intro_to_command_line/).
