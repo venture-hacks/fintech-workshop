@@ -21,7 +21,20 @@ function setupPageScroll() {
 }
 
 
+function setupLogin() {
+    var loginButton = $('#login-button');
+    var userIcon = $('#user-icon');
+    
+    loginButton.bind('click', function (event) {
+        userIcon.src('YOUR IMAGE LINK');
+        loginButton.text('Welcome!');
+        event.preventDefault();
+    })
+}
+
+
 // Will run when the page loads
 $(() => {
     setupPageScroll();
+    setupLogin();
 });
