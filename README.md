@@ -46,8 +46,7 @@ README.md                     -- This handy instruction file!
     --> Create a project on [console.firebase.google.com](https://console.firebase.google.com)
     --> Use `node` and `npm`
     --> run `npm install -g firebase-tools`
-    --> then run `firebase init` from a command line in the
-     **base of this directory**
+    --> then run `firebase init` from a command line in the **base of this directory**
     --> then run `firebase deploy`
 
 ## Advanced
